@@ -1,14 +1,14 @@
 import React from 'react';
-import Link from 'gatsby-link';
-import Navigation from '../components/Navigation';
+import Featured from '../components/Featured';
 
 export default ({ data }) => {
     const page = data.markdownRemark;
-    const { title } = page.frontmatter;
+    const { title, featured } = page.frontmatter;
 
     return (
         <div>
             <h1>{ title }</h1>
+            <Featured items={ featured } />
             <div dangerouslySetInnerHTML={{ __html: page.html }} />
         </div>
     );
@@ -20,6 +20,12 @@ export const query = graphql`
             html
             frontmatter {
                 title
+                featured {
+                    title
+                    icon
+                    color
+                    text
+                }
             }
         }
     }

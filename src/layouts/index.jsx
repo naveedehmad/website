@@ -35,8 +35,10 @@ const TemplateWrapper = ({ data, children }) =>
       meta={[
         { name: 'description', content: 'SEO Description here' },
         { name: 'keywords', content: 'SEO Title here' },
-      ]}
-    />
+      ]}>
+        <link rel="stylesheet" href="http://fonts.googleapis.com/icon?family=Material+Icons" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css" />
+    </Helmet>
     <Header data={ data } />
     <div
       style={{
