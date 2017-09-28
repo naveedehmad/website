@@ -28,21 +28,17 @@ const Header = ({ data }) =>
     </div>
   </div>
 
-const loadHead = () => {
-    if (document.location.pathname !== '/admin') {
-        return (
-            <Helmet
-            title="MySite"
-            meta={[
-                { name: 'description', content: 'SEO Description here' },
-                { name: 'keywords', content: 'SEO Title here' },
-            ]}>
-                <link rel="stylesheet" key="material-icons" href="http://fonts.googleapis.com/icon?family=Material+Icons" />
-                <link rel="stylesheet" key="material-styles" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css" />
-            </Helmet>
-        );
-    }
-}
+const loadHead = () => (
+    <Helmet
+    title="MySite"
+    meta={[
+        { name: 'description', content: 'SEO Description here' },
+        { name: 'keywords', content: 'SEO Title here' },
+    ]}>
+        <link rel="stylesheet" id="material-icons" href="http://fonts.googleapis.com/icon?family=Material+Icons" />
+        <link rel="stylesheet" id="material-styles" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css" />
+    </Helmet>
+);
 
 const TemplateWrapper = ({ data, children }) =>
   <div>
