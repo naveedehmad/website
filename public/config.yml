@@ -1,0 +1,15 @@
+backend:
+  name: github
+  repo: naveedehmad/website
+  branch: master
+
+media_folder: "static/images"
+
+collections:
+  - name: "page"
+    label: "Page"
+    folder: "src/pages"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Body", name: "body", widget: "markdown"}
