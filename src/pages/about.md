@@ -1,4 +1,6 @@
 ---
-title: 'About Us'
+title: About Us
 ---
-Some content about us.
+# This is a title
+
+Some content about us. **Some** more content here.
