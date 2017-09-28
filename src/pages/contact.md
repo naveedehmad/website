@@ -1,4 +1,4 @@
 ---
-title: 'Contact Saleshero'
+title: 'Contact Us'
 ---
 Contact us!

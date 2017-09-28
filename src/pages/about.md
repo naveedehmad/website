@@ -1,4 +1,4 @@
 ---
-title: 'About Saleshero'
+title: 'About Us'
 ---
-Some content about [SalesHero](http://saleshero.ai)
+Some content about us.

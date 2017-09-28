@@ -2,24 +2,24 @@
 title: 'Home Page'
 featured:
     - 
-        title: "I'm Data Aware"
+        title: "Some title 1"
         icon: 'content_copy'
         color: 'teal'
-        text: "My brain is powered by our industry-leading Account Graph database of more than 40 million quality company records, each with hundreds of attributes."
+        text: "Some copy 1"
     -
-        title: "I fill in the blanks"
+        title: "Some title 2"
         icon: 'playlist_add_check'
         color: 'purple'
-        text: "Drawing on my data-aware brain power, I update incomplete records for your leads, contacts, opportunities, and accounts where it makes sense."
+        text: "Some copy 2"
     -
-        title: "I Mine for Prospects"
+        title: "Some title 3"
         icon: "sync"
         color: 'blue'
-        text: "I’m all about quality: I scan your email for new prospects to add to Salesforce; if I see any updates to existing accounts and contacts, I'll sync those too."
+        text: "Some copy 3"
     -
-        title: "I Keep Salesforce up to date"
+        title: "Some title 4"
         icon: "done_all"
         color: 'green'
-        text: "I intelligently process your emails and calendar and learn to log relevant activities to Salesforce."
+        text: "Some copy 4"
 ---
 This is home page!

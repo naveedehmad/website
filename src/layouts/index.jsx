@@ -21,7 +21,7 @@ const Header = ({ data }) =>
     >
       <h1 style={{ margin: 0 }}>
         <Link to="/">
-          SalesHero
+          My Site
         </Link>
       </h1>
       <Navigation pages={ data.allMarkdownRemark.edges } />
@@ -31,7 +31,7 @@ const Header = ({ data }) =>
 const TemplateWrapper = ({ data, children }) =>
   <div>
     <Helmet
-      title="SalesHero"
+      title="MySite"
       meta={[
         { name: 'description', content: 'SEO Description here' },
         { name: 'keywords', content: 'SEO Title here' },
