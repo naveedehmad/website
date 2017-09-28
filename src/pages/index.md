@@ -18,6 +18,6 @@ featured:
     title: Some title 4
 title: Home Page
 ---
-![Testing](/static/images/check-icon-blue@2x.png)
+![null](/public/images/check-icon-blue@2x.png)
 
 This is home page!
