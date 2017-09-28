@@ -1,0 +1,2 @@
+webpackJsonp([60335399758886],{"./node_modules/json-loader/index.js!./.cache/json/layout-index.json":function(t,e){t.exports={data:{allMarkdownRemark:{edges:[{node:{frontmatter:{title:"About Us"},fields:{slug:"/about/"}}},{node:{frontmatter:{title:"Home Page"},fields:{slug:"/"}}},{node:{frontmatter:{title:"Contact Us"},fields:{slug:"/contact/"}}},{node:{frontmatter:{title:"Privacy Page"},fields:{slug:"/privacy/"}}},{node:{frontmatter:{title:"Terms and Conditions"},fields:{slug:"/terms/"}}}]}},layoutContext:{}}}});
+//# sourceMappingURL=path----7fa7bcc7812c0f57ab96.js.map

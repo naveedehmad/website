@@ -3,7 +3,8 @@ backend:
   repo: naveedehmad/website
   branch: master
 
-media_folder: "static/images"
+media_folder: "public/images"
+publish_mode: editorial_workflow
 
 collections:
   - name: "page"

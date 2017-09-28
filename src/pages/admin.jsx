@@ -3,7 +3,6 @@ import React from 'react';
 export default class Admin extends React.Component {
     loadFile(type, src) {
         const remoteFile = `https://unpkg.com/netlify-cms@~0.4/dist/${src}`;
-        console.log(type, src);
         if (type === 'css') {
             let file = document.createElement('link');
             file.rel = 'stylesheet';
@@ -23,10 +22,14 @@ export default class Admin extends React.Component {
         this.loadFile('script', 'cms.js');
     }
 
+    removeItem(id) {
+        const item = document.getElementById(id);
+        item.parentNode.removeChild(item);
+    }
+
     componentDidMount() {
         this.loadCMS();
-        const gatsby = document.getElementById('___gatsby');
-        gatsby.parentNode.removeChild(gatsby);
+        this.removeItem('___gatsby');
     }
 
     render() {

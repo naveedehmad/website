@@ -1,0 +1,2 @@
+webpackJsonp([0xf927f8900006],{"./node_modules/json-loader/index.js!./.cache/json/about.json":function(t,o){t.exports={data:{markdownRemark:{frontmatter:{title:"About Us"},html:"<h1>This is a title</h1>\n<p>Some content about us. <strong>Some</strong> more content here.</p>"}},pathContext:{slug:"/about/"}}}});
+//# sourceMappingURL=path---about-81785c28dfbd737d8e9a.js.map
